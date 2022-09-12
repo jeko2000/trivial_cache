@@ -2,7 +2,7 @@
  [{description, "A trivial cache implementation."},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, {trivial_cache_app, []}},
+  {mod, {tc_app, []}},
   {applications,
    [kernel,
     stdlib
