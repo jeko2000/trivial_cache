@@ -57,6 +57,7 @@ handle_info(_Info, State) ->
     {stop, normal, State}.
 
 terminate(_Reason, _State) ->
+    tc_store:delete(self()),
     ok.
 
 %% private
